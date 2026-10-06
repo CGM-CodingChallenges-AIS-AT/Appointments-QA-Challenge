@@ -2,7 +2,7 @@
 
 Unser Team hat eine kleine Anwendung zur Terminbuchung in einer Arztpraxis entwickelt. Freie Zeitfenster („Slots") können gebucht und wieder storniert werden. Die Anwendung wurde funktional abgenommen, ist aber nie systematisch getestet worden.
 
-Du übernimmst die Rolle des verantwortlichen QA-Experten. Deine Aufgabe besteht aus **zwei Teilen**: einer schriftlichen Test-Strategie und deren praktischer Umsetzung.
+Du übernimmst die Rolle des verantwortlichen QA-Experten. Deine Aufgabe besteht aus **drei Teilen**: einer schriftlichen Test-Strategie, deren praktischer Umsetzung und einer kurzen Reflexion zum Einsatz von KI in der QA.
 
 Die bestehende Lösung besteht aus einem **Java-/Spring-Boot-Backend** und einem **React-Frontend (Vite, TypeScript)**. Die Daten werden ausschließlich im Arbeitsspeicher gehalten und gehen bei einem Neustart des Backends verloren.
 
@@ -22,11 +22,11 @@ Fehlerantworten haben das Format `{"fehler":"..."}`.
 
 ## Deine Aufgabe
 
-### Teil 1 – Test-Strategie (40 %)
+### Teil 1 – Test-Strategie (35 %)
 
-Fülle die Datei `TESTSTRATEGIE.md` aus. Das Gerüst gibt die erwarteten Abschnitte vor. Uns interessiert deine fachliche Begründung, nicht die Länge des Dokuments: Welche Risiken siehst du, wie verteilst du den Testaufwand über die Teststufen, welchen Test-Stack wählst du und warum, woran machst du fest, dass genug getestet wurde.
+Fülle die Abschnitte 1 bis 9 der Datei `TESTSTRATEGIE.md` aus. Das Gerüst gibt die erwarteten Abschnitte vor. Uns interessiert deine fachliche Begründung, nicht die Länge des Dokuments: Welche Risiken siehst du, wie verteilst du den Testaufwand über die Teststufen, welchen Test-Stack wählst du und warum, woran machst du fest, dass genug getestet wurde.
 
-### Teil 2 – Implementierung (60 %)
+### Teil 2 – Implementierung (50 %)
 
 1. Erstelle für deine Änderungen einen Branch oder Fork dieses Starters.
 2. Setze die in Teil 1 beschriebene Strategie um. Welche Werkzeuge du dafür verwendest, entscheidest du selbst – die mitgelieferten Starter-Tests (Playwright) sind nur ein Einstiegspunkt, kein Zwang.
@@ -37,6 +37,10 @@ Fülle die Datei `TESTSTRATEGIE.md` aus. Das Gerüst gibt die erwarteten Abschni
 Es gibt **kein vorgegebenes Zeitbudget**. Entscheide selbst, welcher Umfang angemessen ist – diese Entscheidung ist Teil der Bewertung. Begründe sie kurz im Abschnitt „Was ich mit mehr Zeit zusätzlich getan hätte".
 
 Die beiden mitgelieferten Starter-Tests sind bewusst **grün** und decken keine Abweichung auf.
+
+### Teil 3 – KI in der QA (15 %)
+
+Fülle Abschnitt 10 der Datei `TESTSTRATEGIE.md` aus. Der Einsatz von KI-Werkzeugen bei dieser Aufgabe ist ausdrücklich erlaubt und erwünscht – es gibt keine Punkte dafür, darauf zu verzichten, und keine Abzüge für den Einsatz. Bewertet wird, wie differenziert du über Nutzen, Grenzen und Risiken urteilst und wie offen du deinen eigenen Einsatz reflektierst.
 
 ## Lokal starten
 
@@ -124,7 +128,7 @@ Stelle dein Ergebnis als Git-Repository bereit (Branch, Fork oder Archiv). Es so
 
 ## Bewertungskriterien
 
-**Test-Strategie (40 %)**
+**Test-Strategie (35 %)**
 
 - Nachvollziehbare Risikoanalyse und daraus abgeleitete Priorisierung
 - Begründete Verteilung über die Teststufen statt pauschaler „alles E2E"-Ansätze
@@ -132,10 +136,16 @@ Stelle dein Ergebnis als Git-Repository bereit (Branch, Fork oder Archiv). Es so
 - Belastbare Exit-Kriterien und Metriken
 - Realistische Einschätzung des eigenen Scopes
 
-**Implementierung (60 %)**
+**Implementierung (50 %)**
 
 - Aussagekraft der Tests: Deckt ein fehlschlagender Test eine echte Abweichung von der Spezifikation auf?
 - Reproduzierbarkeit und Unabhängigkeit der Tests voneinander
 - Abdeckung über das Offensichtliche hinaus: Grenzwerte, Zustandsübergänge, Nebenläufigkeit
 - Qualität der Defect-Dokumentation
 - Lesbarkeit und Struktur des Testcodes
+
+**KI in der QA (15 %)**
+
+- Konkretheit: Bezug auf dieses Projekt statt allgemeiner Aussagen über KI
+- Differenziertes Risikoverständnis, auch über offensichtliche Punkte hinaus
+- Offene und selbstkritische Reflexion des eigenen Einsatzes

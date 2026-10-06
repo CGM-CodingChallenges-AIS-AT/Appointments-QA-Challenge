@@ -1,6 +1,7 @@
 # Test-Strategie
 
-> Dieses Dokument ist Teil 1 der Challenge (40 % der Bewertung). Fülle die Abschnitte aus.
+> Dieses Dokument enthält Teil 1 (Abschnitte 1–9, 35 % der Bewertung) und Teil 3
+> (Abschnitt 10, 15 % der Bewertung) der Challenge. Fülle die Abschnitte aus.
 > Entferne diese Hinweiszeile und die kursiven Hinweise unter den Überschriften, bevor du abgibst.
 > Es gibt keine Mindestlänge – Begründung zählt mehr als Umfang. Abschnitte, die du für
 > nicht anwendbar hältst, darfst du streichen, wenn du die Entscheidung kurz begründest.
@@ -79,7 +80,35 @@ Verweis auf den Test, der ihn nachweist.*
 
 ---
 
-## 10. Was ich mit mehr Zeit zusätzlich getan hätte
+## 10. KI in der QA
+
+*Der Einsatz von KI-Werkzeugen bei dieser Aufgabe ist ausdrücklich erlaubt und erwünscht.
+Es gibt keine Punkte dafür, auf KI zu verzichten, und keine Abzüge für ihren Einsatz.
+Bewertet wird allein, wie differenziert du über Nutzen, Grenzen und Risiken urteilst.*
+
+### 10.1 Einsatzpotenzial in diesem Projekt
+
+*An welchen konkreten Stellen der QA dieses Projekts würdest du KI einsetzen – und wie
+genau? Nenne mindestens zwei Stellen, beschreibe den konkreten Einsatz (nicht „KI für
+Testfallgenerierung", sondern wofür genau, mit welchem Input und welchem Ergebnis) und
+begründe, warum sich der Aufwand dort lohnt. Wo würdest du bewusst darauf verzichten?*
+
+### 10.2 Risiken
+
+*Welche Risiken siehst du beim KI-Einsatz in der QA – fachlich, methodisch und
+organisatorisch? Wie würdest du ihnen begegnen? Denk auch an den Fall, dass KI die
+Spezifikation selbst interpretiert.*
+
+### 10.3 Eigener Einsatz bei dieser Aufgabe
+
+*Wo hast du bei der Bearbeitung KI eingesetzt, mit welchem Werkzeug, zu welchem Zweck?
+Was hat gut funktioniert, was nicht? Gab es ein Ergebnis, das du verworfen oder korrigiert
+hast – und woran hast du den Fehler bemerkt? Falls du keine KI eingesetzt hast, begründe
+diese Entscheidung.*
+
+---
+
+## 11. Was ich mit mehr Zeit zusätzlich getan hätte
 
 *Welchen Scope hast du gewählt und warum? Was wäre der nächste sinnvolle Schritt, und
 welchen Mehrwert hätte er?*
